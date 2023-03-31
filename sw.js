@@ -8,7 +8,7 @@ const INMUTABLE_CACHE = 'inumatable-v1';
 //archivos necesarios para que la app funcione
 //incluyendo el / css,js y otro recursos que creamos y manipulamos.
 const APP_SHELL = [
-    '/',
+    //'/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
