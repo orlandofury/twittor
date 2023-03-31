@@ -12,8 +12,11 @@
     background-color: #dde1e2; 
     width: 100%;
 
-    -webkit-user-select: none;
 
+    overscroll-behavior-y: contain;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */

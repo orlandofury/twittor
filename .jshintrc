@@ -2,7 +2,7 @@
     "maxerr"        : 50,
     "bitwise"       : true,
     "camelcase"     : false,
-    "curly"         : true,
+    "curly"         : false,
     "eqeqeq"        : true,
     "forin"         : true,
     "freeze"        : true,
@@ -71,6 +71,7 @@
     "globals"       : {
         "$"     : true,
         "self"  : true,
-        "caches": true
+        "caches": true,
+        "importScripts": true
     }
 }
